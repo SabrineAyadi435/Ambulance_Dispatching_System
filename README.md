@@ -36,28 +36,4 @@ IT Risk is further decomposed into:
 - ✅ **Visual step-by-step execution**
 - ✅ **All hospital comparison**
 
-🚑 REVERSE SINGLE-SOURCE DIJKSTRA - MATHEMATICAL IMPLEMENTATION
-========================================================================
 
-🔍 Running Dijkstra from Tunisia_Mall in REVERSED graph G'
-🏥 Looking for hospitals: ['Mongi_Slim', 'Charles_Nicolle', 'Habib_Thamer', 'Rabta']
-
-📊 Dijkstra Initialization:
-   λ[Tunisia_Mall] = 0
-   λ[i] = ∞ for all other vertices
-   Q = {(0, Tunisia_Mall)}
-
-🏥 Found hospital Mongi_Slim at iteration 3
-   λ[Mongi_Slim] = 1.2345
-
-✅ Dijkstra completed
-🏆 Optimal hospital: h* = Mongi_Slim
-📊 Minimum composite cost: λ = 1.2345
-
-🧮 Mathematical Solution:
-   h* = argmin_{h∈H} λ_h = Mongi_Slim
-   λ* = 1.2345
-
-🗺️  Optimal Route P* in original graph G:
-   P* = Mongi_Slim → Ain_Zaghouan → Tunisia_Mall
-   ✅ Mathematical correctness: P* ∈ P(h*, d)
