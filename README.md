@@ -1,8 +1,8 @@
 # Ambulance_Dispatching_System
-## 📋 Project Overview
+##  Project Overview
 This Python implementation solves the **ambulance dispatch optimization problem** using a **Reverse Single-Source Dijkstra algorithm** with **Analytic Hierarchy Process (AHP)** weights. The algorithm finds the optimal hospital to dispatch an ambulance from to an emergency location, considering multiple criteria: travel time, IT risk factors, and operational cost.
 
-## 🧮 Mathematical Foundation
+##  Mathematical Foundation
 
 ### Problem Formulation
 - **Original Problem**: Find hospital h* ∈ H that minimizes the composite cost to emergency site d
@@ -21,7 +21,7 @@ IT Risk is further decomposed into:
 - GPS Accuracy (23.9%): v_gps = 0.239  
 - Data Integrity (13.7%): v_data = 0.137
 
-## 🏗️ Algorithm Architecture
+##  Algorithm Architecture
 
 ### Core Components
 1. **Graph Reversal**: Creates G' by reversing all edges from original graph G
@@ -29,11 +29,6 @@ IT Risk is further decomposed into:
 3. **Path Reconstruction**: Converts paths back to original graph direction
 4. **Multi-criteria Weighting**: Computes composite edge weights using AHP
 
-### Key Features
-- ✅ **Mathematically exact implementation**
-- ✅ **Correct path direction handling** (Hospital → Emergency Site)
-- ✅ **Comprehensive metric calculation**
-- ✅ **Visual step-by-step execution**
-- ✅ **All hospital comparison**
+
 
 
